@@ -62,7 +62,7 @@ expliquer que le code doit être utilisé lors de l'inscription initiale.
 
 -- 1XBET (recommandé en priorité) --
 Lien d'inscription :
-https://refpa58144.com/L?tag=d_4685511m_45361c_&site=4685511&ad=45361_
+https://affpa.top/L?tag=d_3886977m_97c_&site=3886977&ad=97
 Emplacement du code : champ "Code promotionnel" situé en bas du formulaire,
 juste avant le bouton de validation.
 
@@ -85,7 +85,7 @@ Emplacement du code : champ "Code promo" dans le formulaire d'inscription.
 
 -- WINWIN --
 Lien d'inscription :
-https://refpa49781.com/L?tag=d_5373880m_64433c_&site=5373880&ad=64433
+https://refpa98980.com/L?tag=d_5242424m_94904c_&site=5242424&ad=94904
 Emplacement du code : champ "Code promo" ou "Code bonus" avant la validation
 finale du formulaire.
 
