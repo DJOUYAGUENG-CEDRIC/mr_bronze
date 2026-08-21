@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+html, body {
+  height: 100%;
+  margin: 0;
+  background: #fdf6ec;
+  color: #431407;
+}
+
+/* ── Markdown ─────────────────────────────────────────────────────────────── */
+.markdown { line-height: 1.6; }
+.markdown > *:first-child { margin-top: 0; }
+.markdown > *:last-child  { margin-bottom: 0; }
+.markdown p               { margin-bottom: 0.5rem; }
+.markdown p:last-child    { margin-bottom: 0; }
+.markdown strong          { font-weight: 700; color: #92400e; }
+.markdown ul   { list-style: disc;    margin-left: 1.25rem; margin-bottom: 0.5rem; }
+.markdown ol   { list-style: decimal; margin-left: 1.25rem; margin-bottom: 0.5rem; }
+.markdown li   { margin-bottom: 0.25rem; line-height: 1.5; }
+.markdown li:last-child { margin-bottom: 0; }
+.markdown a       { color: #d97706; text-decoration: underline; text-underline-offset: 2px; word-break: break-all; }
+.markdown a:hover { color: #b45309; }
+
+/* ── Audio range ──────────────────────────────────────────────────────────── */
+.audio-range {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 4px;
+  border-radius: 9999px;
+  outline: none;
+  cursor: pointer;
+}
+.audio-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #d97706;
+  cursor: pointer;
+  margin-top: -4.5px;
+  box-shadow: 0 0 0 3px rgba(217,119,6,0.25);
+}
+.audio-range::-moz-range-thumb {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #d97706;
+  border: none;
+  cursor: pointer;
+}
+
+/* ── Shimmer animation (titre assistant) ──────────────────────────────────── */
+@keyframes shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position:  200% center; }
+}
+.shimmer {
+  background: linear-gradient(90deg, #78350f, #92400e, #d97706, #92400e, #78350f);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 3s linear infinite;
+}
+
+/* ── Pulse dot ────────────────────────────────────────────────────────────── */
+@keyframes pulse-dot { 0%,100%{opacity:1} 50%{opacity:0.3} }
+.pulse-dot { animation: pulse-dot 1.5s ease-in-out infinite; }
