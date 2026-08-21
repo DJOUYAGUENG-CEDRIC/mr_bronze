@@ -75,21 +75,21 @@ export default function Dashboard() {
   return (
     <div className="min-h-screen" style={{ background: '#fdf6ec', color: '#431407' }}>
       <div
-        className="sticky top-0 z-10 flex items-center justify-between px-6 py-4 shadow-md"
+        className="sticky top-0 z-10 flex items-center justify-between gap-2 px-4 sm:px-6 py-3 sm:py-4 shadow-md"
         style={{ background: '#ffffff', borderBottom: '1px solid #fde68a' }}
       >
-        <p className="font-bold text-base" style={{ color: '#78350f' }}>Mr BRONZE PRONOS — Admin</p>
+        <p className="font-bold text-sm sm:text-base truncate min-w-0" style={{ color: '#78350f' }}>Mr BRONZE PRONOS — Admin</p>
         <button
           type="button"
           onClick={logout}
-          className="text-xs px-3 py-1.5 rounded-lg transition-colors"
+          className="shrink-0 whitespace-nowrap text-xs px-3 py-1.5 rounded-lg transition-colors"
           style={{ color: '#92400e', background: '#fef3c7', border: '1px solid #fde68a' }}
         >
           Déconnexion
         </button>
       </div>
 
-      <div className="max-w-5xl mx-auto px-4 py-6 space-y-6">
+      <div className="max-w-5xl mx-auto px-3 sm:px-4 py-4 sm:py-6 space-y-6">
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
           <StatCard label="Conversations" value={stats?.totalSessions} />
           <StatCard label="Messages" value={stats?.totalMessages} />
@@ -103,7 +103,7 @@ export default function Dashboard() {
           </div>
         )}
 
-        <div className="flex gap-4" style={{ alignItems: 'flex-start' }}>
+        <div className="flex flex-col lg:flex-row gap-4 items-stretch lg:items-start">
           <div className="flex-1 min-w-0 rounded-2xl overflow-hidden" style={{ background: '#ffffff', border: '1px solid #fde68a' }}>
             <div className="px-4 py-3 flex items-center justify-between" style={{ borderBottom: '1px solid #fde68a' }}>
               <p className="text-[10px] font-bold uppercase tracking-widest" style={{ color: '#b45309' }}>Conversations récentes</p>
@@ -160,8 +160,8 @@ export default function Dashboard() {
 
           {selected && (
             <div
-              className="w-80 shrink-0 rounded-2xl overflow-hidden"
-              style={{ maxHeight: '70vh', display: 'flex', flexDirection: 'column', background: '#ffffff', border: '1px solid #fde68a' }}
+              className="w-full lg:w-80 shrink-0 rounded-2xl overflow-hidden max-h-[60vh] lg:max-h-[70vh]"
+              style={{ display: 'flex', flexDirection: 'column', background: '#ffffff', border: '1px solid #fde68a' }}
             >
               <div className="px-4 py-3 flex items-center justify-between shrink-0" style={{ borderBottom: '1px solid #fde68a' }}>
                 <p className="text-[10px] font-bold uppercase tracking-widest" style={{ color: '#b45309' }}>Conversation</p>
