@@ -3,11 +3,10 @@
 import { useState, useRef, useEffect } from 'react';
 import Header from '@/components/Header';
 import ChatBubble from '@/components/ChatBubble';
-import AudioMessage from '@/components/AudioMessage';
 import FaqButtons from '@/components/FaqButtons';
 import PlatformsCard from '@/components/PlatformsCard';
 import ChatInput from '@/components/ChatInput';
-import { WELCOME_MESSAGE, AUDIO_URL } from '@/lib/config';
+import { WELCOME_MESSAGE } from '@/lib/config';
 import { sendMessage } from '@/services/chatApi';
 
 function getSessionId() {
@@ -77,7 +76,6 @@ export default function Page() {
 
       <main className="flex-1 overflow-y-auto min-h-0 px-3 py-4 space-y-3">
         <ChatBubble sender="assistant" text={WELCOME_MESSAGE} />
-        <AudioMessage src={AUDIO_URL} />
         <FaqButtons onSelect={handleSend} disabled={isLoading} />
 
         {messages.map((msg) => (

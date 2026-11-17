@@ -2,9 +2,9 @@ import './globals.css';
 
 export const metadata = {
   title: 'Mr BRONZE PRONOS',
-  description: 'Assistant Apple of Fortune — Code promo 24TDF',
+  description: 'Assistant Crash — Code promo 24TDF',
   icons: {
-    icon: '/apple.jpeg',
+    icon: '/crash.png',
   },
 };
 

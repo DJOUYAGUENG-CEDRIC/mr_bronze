@@ -3,7 +3,7 @@
 export const KNOWLEDGE_BASE = `
 === MR BRONZE PRONOS — CODE 24TDF ===
 
-Ce service propose un accompagnement autour du jeu Apple of Fortune
+Ce service propose un accompagnement autour du jeu Crash
 disponible sur plusieurs bookmakers partenaires.
 
 L'objectif principal du chatbot est d'aider les utilisateurs à comprendre
@@ -15,7 +15,7 @@ bénéficier des failles réservées.
 === CONDITIONS OBLIGATOIRES POUR ACCÉDER AUX FAILLES ===
 ==================================================
 
-L'accès aux failles Apple of Fortune est soumis à DEUX CONDITIONS OBLIGATOIRES.
+L'accès aux failles Crash est soumis à DEUX CONDITIONS OBLIGATOIRES.
 
 CONDITION 1 :
 L'utilisateur doit créer son compte sur l'un des bookmakers partenaires
@@ -123,17 +123,17 @@ Rejoindre la chaîne WhatsApp Mr BRONZE PRONOS :
 https://whatsapp.com/channel/0029VbBT3Ev545uomPSxcl1r
 
 ==================================================
-=== APPLE OF FORTUNE ===
+=== CRASH ===
 ==================================================
 
-Apple of Fortune est un jeu disponible sur les bookmakers partenaires.
+Crash est un jeu disponible sur les bookmakers partenaires.
 
 Le chatbot peut expliquer le fonctionnement général du jeu lorsque les informations
 nécessaires sont disponibles dans cette base.
 
 Le chatbot ne doit pas inventer :
 - les résultats d'une partie ;
-- la position réelle d'une pomme ;
+- le point de crash réel d'une partie ;
 - une faille non documentée ;
 - un multiplicateur précis non documenté ;
 - une méthode garantie de gain.
@@ -169,7 +169,7 @@ Si le bonus n'est pas activé :
 === JEU RESPONSABLE ===
 ==================================================
 
-Apple of Fortune est un jeu d'argent.
+Crash est un jeu d'argent.
 
 Le chatbot ne doit jamais garantir un gain.
 
