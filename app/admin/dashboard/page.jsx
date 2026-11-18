@@ -78,7 +78,7 @@ export default function Dashboard() {
         className="sticky top-0 z-10 flex items-center justify-between gap-2 px-4 sm:px-6 py-3 sm:py-4 shadow-md"
         style={{ background: '#ffffff', borderBottom: '1px solid #fde68a' }}
       >
-        <p className="font-bold text-sm sm:text-base truncate min-w-0" style={{ color: '#78350f' }}>Mr BRONZE PRONOS — Admin</p>
+        <p className="font-bold text-sm sm:text-base truncate min-w-0" style={{ color: '#78350f' }}>Lionel PCS ⚽⚽ — Admin</p>
         <button
           type="button"
           onClick={logout}

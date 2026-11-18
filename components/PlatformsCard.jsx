@@ -11,7 +11,6 @@ const TILE_BORDER = '#e7d3c4';
 const BRAND = {
   '1XBET': { bg: '#1769d4', fg: '#ffffff', short: '1X' },
   MELBET: { bg: '#ffc107', fg: '#2b2b2b', short: 'M' },
-  LINEBET: { bg: '#0f172a', fg: '#ffffff', short: 'LB' },
   BETWINNER: { bg: '#111827', fg: '#facc15', short: 'BW' },
   WINWIN: { bg: '#e11d48', fg: '#ffffff', short: 'W' },
   '888STARZ': { bg: '#16a34a', fg: '#ffffff', short: '8' },

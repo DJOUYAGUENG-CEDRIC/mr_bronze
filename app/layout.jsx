@@ -1,10 +1,10 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Mr BRONZE PRONOS',
+  title: 'Lionel PCS ⚽⚽',
   description: 'Assistant Crash — Code promo 24TDF',
   icons: {
-    icon: '/crash.png',
+    icon: '/pcs.jpg',
   },
 };
 

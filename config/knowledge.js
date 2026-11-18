@@ -1,7 +1,7 @@
-// Base de connaissance Mr BRONZE PRONOS — Code 24TDF
+// Base de connaissance Lionel PCS — Code 24TDF
 
 export const KNOWLEDGE_BASE = `
-=== MR BRONZE PRONOS — CODE 24TDF ===
+=== LIONEL PCS — CODE 24TDF ===
 
 Ce service propose un accompagnement autour du jeu Crash
 disponible sur plusieurs bookmakers partenaires.
@@ -37,7 +37,7 @@ Cela signifie :
 === CHAÎNE WHATSAPP OFFICIELLE ===
 ==================================================
 
-Nom de la chaîne : Mr BRONZE PRONOS
+Nom de la chaîne : Lionel PCS
 Lien officiel    : https://whatsapp.com/channel/0029VbBT3Ev545uomPSxcl1r
 
 Pour rejoindre la chaîne, les deux conditions d'inscription et de dépôt
@@ -71,12 +71,6 @@ Lien d'inscription :
 https://mlbt.cc/4oQIw91
 Emplacement du code : cliquer sur "J'ai un code promo" dans le formulaire
 pour afficher le champ de saisie.
-
--- LINEBET --
-Lien d'inscription :
-https://lb-aff.com/L?tag=d_4116448m_66803c_apk1&site=4116448&ad=66803
-Emplacement du code : champ "Code promo" ou "Code bonus" dans le formulaire
-d'inscription.
 
 -- BETWINNER --
 Lien d'inscription :
@@ -119,7 +113,7 @@ Effectuer le premier dépôt minimum de 3$ ou 1 500 FCFA via Mobile Money
 (MTN, Orange, Moov) ou tout autre moyen disponible.
 
 Étape 7 :
-Rejoindre la chaîne WhatsApp Mr BRONZE PRONOS :
+Rejoindre la chaîne WhatsApp Lionel PCS :
 https://whatsapp.com/channel/0029VbBT3Ev545uomPSxcl1r
 
 ==================================================

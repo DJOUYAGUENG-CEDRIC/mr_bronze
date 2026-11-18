@@ -38,3 +38,54 @@ html, body {
 /* ── Pulse dot ────────────────────────────────────────────────────────────── */
 @keyframes pulse-dot { 0%,100%{opacity:1} 50%{opacity:0.3} }
 .pulse-dot { animation: pulse-dot 1.5s ease-in-out infinite; }
+
+/* ── Welcome voice message ────────────────────────────────────────────────── */
+.voice-message {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: min(100%, 17rem);
+}
+.voice-play-button {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 0;
+  border-radius: 9999px;
+  color: #fff;
+  background: #92400e;
+  cursor: pointer;
+}
+.voice-play-button:disabled { cursor: not-allowed; opacity: 0.5; }
+.voice-play-button svg { width: 1.25rem; height: 1.25rem; }
+.voice-track { flex: 1; min-width: 0; }
+.voice-waveform {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2px;
+  height: 2rem;
+}
+.voice-waveform-bar { flex: 1; min-width: 1px; border-radius: 9999px; }
+.voice-waveform input {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.voice-waveform:focus-within { outline: 2px solid #d97706; outline-offset: 2px; }
+.voice-waveform input:disabled { cursor: default; }
+.voice-time {
+  display: block;
+  margin-top: 0.125rem;
+  color: #78716c;
+  font-size: 0.7rem;
+  line-height: 1rem;
+}

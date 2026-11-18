@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect } from 'react';
 import Header from '@/components/Header';
 import ChatBubble from '@/components/ChatBubble';
+import VoiceMessage from '@/components/VoiceMessage';
 import FaqButtons from '@/components/FaqButtons';
 import PlatformsCard from '@/components/PlatformsCard';
 import ChatInput from '@/components/ChatInput';
@@ -76,6 +77,9 @@ export default function Page() {
 
       <main className="flex-1 overflow-y-auto min-h-0 px-3 py-4 space-y-3">
         <ChatBubble sender="assistant" text={WELCOME_MESSAGE} />
+        <ChatBubble sender="assistant">
+          <VoiceMessage />
+        </ChatBubble>
         <FaqButtons onSelect={handleSend} disabled={isLoading} />
 
         {messages.map((msg) => (

@@ -33,7 +33,7 @@ export default function AdminLogin() {
         style={{ background: '#ffffff', border: '1px solid #fde68a' }}
       >
         <div className="text-center mb-8">
-          <p className="text-xl font-bold tracking-wide" style={{ color: '#78350f' }}>Mr BRONZE PRONOS</p>
+          <p className="text-xl font-bold tracking-wide" style={{ color: '#78350f' }}>Lionel PCS ⚽⚽</p>
           <p className="text-sm mt-1 font-medium" style={{ color: '#dc2626' }}>Panel Administrateur</p>
         </div>
 
